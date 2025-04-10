@@ -1,0 +1,273 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9023,        263]
+NotebookOptionsPosition[      6957,        219]
+NotebookOutlinePosition[      7353,        235]
+CellTagsIndexPosition[      7310,        232]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Vaje 7", "Title",
+ CellChangeTimes->{{3.953270379670582*^9, 
+  3.9532704132137403`*^9}},ExpressionUUID->"99bf48ad-05b1-4ce9-b73b-\
+8de129c89b4d"],
+
+Cell["10. 4. 2025", "Text",
+ CellChangeTimes->{{3.9532704185971947`*^9, 
+  3.953270420821113*^9}},ExpressionUUID->"7d87b89d-7483-4383-89e7-\
+fed7752a445e"],
+
+Cell[CellGroupData[{
+
+Cell["1. naloga", "Section",
+ CellChangeTimes->{{3.953270428999707*^9, 
+  3.95327043232753*^9}},ExpressionUUID->"f2e150b9-f95e-4edc-921b-\
+8773c5167b1c"],
+
+Cell["Re\[SHacek]ite linearni sistem ena\[CHacek]b Ax = b za spodnji \
+vrednosti", "Text",
+ CellChangeTimes->{{3.8896196224164243`*^9, 
+  3.889619639757234*^9}},ExpressionUUID->"6ff47b53-57cf-4d6a-b3d0-\
+a32693ef8796"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"A", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"1", ",", " ", 
+       RowBox[{"-", "1"}], ",", " ", 
+       RowBox[{"-", "1"}], ",", " ", "1"}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", " ", "3", ",", " ", 
+       RowBox[{"-", "12"}], ",", " ", "3"}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", " ", "0", ",", " ", "3", ",", " ", 
+       RowBox[{"-", "1"}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "2"}], ",", " ", "1", ",", " ", "4", ",", " ", 
+       RowBox[{"-", "1"}]}], "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"b", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"-", "1"}], ",", " ", "2", ",", " ", "0", ",", " ", "0"}], 
+    "}"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.889619589488395*^9, 3.889619609731984*^9}, {
+  3.889619641532483*^9, 3.889619657551823*^9}, {3.8896825256114464`*^9, 
+  3.889682530952365*^9}, {3.924176169382385*^9, 3.924176171990901*^9}},
+ CellLabel->
+  "In[100]:=",ExpressionUUID->"18655029-defb-4dd7-a2f2-86e305ef9845"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["2. naloga", "Section",
+ CellChangeTimes->{{3.8896196995744925`*^9, 3.8896197005455494`*^9}, {
+  3.95327049958847*^9, 
+  3.953270499629669*^9}},ExpressionUUID->"5d086aed-775b-4231-a24f-\
+87d42a129dd2"],
+
+Cell["\<\
+Za spodnji matriki A in B 
+a) re\[SHacek]ite ena\[CHacek]bo X*A^T + B + 2 X == 0
+b) ugotovite za katere vrednosti a ena\[CHacek]ba X*A^T + B + aX == 0 nima re\
+\[SHacek]itve?\
+\>", "Text",
+ CellChangeTimes->{{3.889619708961772*^9, 3.889619772996807*^9}, {
+  3.8896876464882526`*^9, 3.889687646910143*^9}, {3.924176427233163*^9, 
+  3.924176428900454*^9}},ExpressionUUID->"0d9206f8-d645-41ca-9c55-\
+746f54624e56"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"A", " ", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "3"}], ",", " ", 
+       RowBox[{"-", "1"}], ",", " ", "1"}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", " ", 
+       RowBox[{"-", "1"}], ",", " ", "1"}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", " ", "0", ",", " ", 
+       RowBox[{"-", "3"}]}], "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"B", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "2"}], ",", " ", "1", ",", " ", 
+       RowBox[{"-", "1"}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "2"}], ",", " ", "0", ",", " ", 
+       RowBox[{"-", "1"}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", " ", "1", ",", " ", 
+       RowBox[{"-", "1"}]}], "}"}]}], "}"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.889619775127403*^9, 3.889619806372137*^9}, {
+  3.924176879956833*^9, 3.924176888625649*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"c4db388e-c9fb-479d-a3c9-2b59f416e86d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["3. naloga", "Section",
+ CellChangeTimes->{{3.889619844105543*^9, 3.8896198452279215`*^9}, {
+  3.953270570784215*^9, 
+  3.9532705708293858`*^9}},ExpressionUUID->"db8b003f-ff20-49c7-9700-\
+11c27ac7047d"],
+
+Cell["Dolo\[CHacek]ite rang matrike A v odvnisnosti od parametra a", "Text",
+ CellChangeTimes->{{3.8896198571653214`*^9, 
+  3.8896198697592134`*^9}},ExpressionUUID->"8103d238-bc00-45e2-b50d-\
+956c8c080642"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"A", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", " ", 
+       RowBox[{"a", "+", "1"}], ",", " ", 
+       RowBox[{
+        RowBox[{"2", "a"}], " ", "+", "1"}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", " ", "1", ",", " ", 
+       RowBox[{"a", " ", "+", " ", "1"}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", " ", 
+       RowBox[{"-", "1"}], ",", " ", "0"}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", " ", "1", ",", " ", "2"}], "}"}]}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.8896198717044516`*^9, 3.889619892557885*^9}, {
+  3.9241769006537113`*^9, 3.924176902760478*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"64b189a1-8229-4218-a344-d5eeffcd7fcd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["4. naloga", "Section",
+ CellChangeTimes->{{3.9532707184218893`*^9, 
+  3.953270720052999*^9}},ExpressionUUID->"4a87cdd1-9486-48f4-b545-\
+b0fb552dccab"],
+
+Cell["\<\
+Ugotovi, ali je c=[28,3]^T linearna kombinacija vektorjev a=[2,3]^T in \
+b=[-3,2]^T.\
+\>", "Text",
+ CellChangeTimes->{
+  3.95327073159307*^9},ExpressionUUID->"086be317-ad1f-4380-aae1-b474e9caecf1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["5. naloga", "Section",
+ CellChangeTimes->{{3.953270743643691*^9, 
+  3.953270746981207*^9}},ExpressionUUID->"01092a72-7b5f-46c3-b12a-\
+7e445fb0d1f8"],
+
+Cell["\<\
+Dani  sta  to\[CHacek]ki  A (1, 2, 4)  in  B (-1, -1, 3). Poi\[SHacek]\
+\[CHacek]ite  ena\[CHacek]bo  mno\[ZHacek]ice  vseh  to\[CHacek]k, ki  so  \
+enako  oddaljene  od  to\[CHacek]k  A  in  B .\
+\>", "Text",
+ CellChangeTimes->{{3.953270800031987*^9, 3.9532708085798817`*^9}, {
+  3.953272681635357*^9, 
+  3.95327269284094*^9}},ExpressionUUID->"a31b790c-e248-414a-840a-\
+2f214b4b9d78"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["6. naloga", "Section",
+ CellChangeTimes->{{3.953271092779297*^9, 
+  3.9532710972092524`*^9}},ExpressionUUID->"bfaada50-d683-443d-bbbe-\
+d71690895f50"],
+
+Cell["\<\
+Diagonalizirajte matriko A. Dolo\[CHacek]ite tudi prehodno matriko in njen \
+inverz.\
+\>", "Text",
+ CellChangeTimes->{{3.9532711013368387`*^9, 
+  3.953271133592704*^9}},ExpressionUUID->"32fce0db-392f-4724-a10c-\
+e1806cf81ab4"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{864, 1051},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e391b1f8-c3df-4bb7-9bec-36a2ee8acdf8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 151, 3, 98, "Title",ExpressionUUID->"99bf48ad-05b1-4ce9-b73b-8de129c89b4d"],
+Cell[734, 27, 155, 3, 35, "Text",ExpressionUUID->"7d87b89d-7483-4383-89e7-fed7752a445e"],
+Cell[CellGroupData[{
+Cell[914, 34, 153, 3, 67, "Section",ExpressionUUID->"f2e150b9-f95e-4edc-921b-8773c5167b1c"],
+Cell[1070, 39, 218, 4, 35, "Text",ExpressionUUID->"6ff47b53-57cf-4d6a-b3d0-a32693ef8796"],
+Cell[1291, 45, 1160, 30, 52, "Input",ExpressionUUID->"18655029-defb-4dd7-a2f2-86e305ef9845"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2488, 80, 206, 4, 67, "Section",ExpressionUUID->"5d086aed-775b-4231-a24f-87d42a129dd2"],
+Cell[2697, 86, 421, 9, 81, "Text",ExpressionUUID->"0d9206f8-d645-41ca-9c55-746f54624e56"],
+Cell[3121, 97, 1128, 32, 52, "Input",ExpressionUUID->"c4db388e-c9fb-479d-a3c9-2b59f416e86d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4286, 134, 207, 4, 67, "Section",ExpressionUUID->"db8b003f-ff20-49c7-9700-11c27ac7047d"],
+Cell[4496, 140, 206, 3, 35, "Text",ExpressionUUID->"8103d238-bc00-45e2-b50d-956c8c080642"],
+Cell[4705, 145, 800, 21, 30, "Input",ExpressionUUID->"64b189a1-8229-4218-a344-d5eeffcd7fcd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5542, 171, 156, 3, 67, "Section",ExpressionUUID->"4a87cdd1-9486-48f4-b545-b0fb552dccab"],
+Cell[5701, 176, 207, 5, 35, "Text",ExpressionUUID->"086be317-ad1f-4380-aae1-b474e9caecf1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5945, 186, 154, 3, 67, "Section",ExpressionUUID->"01092a72-7b5f-46c3-b12a-7e445fb0d1f8"],
+Cell[6102, 191, 395, 8, 35, "Text",ExpressionUUID->"a31b790c-e248-414a-840a-2f214b4b9d78"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6534, 204, 156, 3, 67, "Section",ExpressionUUID->"bfaada50-d683-443d-bbbe-d71690895f50"],
+Cell[6693, 209, 236, 6, 35, "Text",ExpressionUUID->"32fce0db-392f-4724-a10c-e1806cf81ab4"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
