@@ -1,0 +1,105 @@
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[         0,          0]
+NotebookDataLength[      3287,        104]
+NotebookOptionsPosition[      2066,         68]
+NotebookOutlinePosition[      2493,         85]
+CellTagsIndexPosition[      2450,         82]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Fizikalna simulacija z Mathematico", "Title",
+ CellChangeTimes->{{3.828690166134975*^9, 
+  3.82869017186473*^9}},ExpressionUUID->"b1187b93-4eda-4fcb-860b-\
+0bc3d0125d0b"],
+
+Cell[CellGroupData[{
+
+Cell["Nitno nihalo", "Section",
+ CellChangeTimes->{{3.8297181326554403`*^9, 
+  3.82971813988693*^9}},ExpressionUUID->"4848215e-4d0a-4a62-8fa0-\
+b40d05dbc28e"],
+
+Cell["\<\
+Simulirajte nihanje nitnega nihala, kjer kot vhodni podatek dobite dol\
+\[ZHacek]ino vrvice, gravitacijski pospe\[SHacek]ek in za\[CHacek]etni odklon.\
+\>", "Text",
+ CellChangeTimes->{{3.953868874085832*^9, 
+  3.95386893521867*^9}},ExpressionUUID->"515d5fad-35fb-4da7-bc05-\
+ccd471c9eeeb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Vzmetno nihalo", "Section",
+ CellChangeTimes->{{3.829721222774477*^9, 3.829721228049456*^9}, {
+  3.82972154713106*^9, 
+  3.82972154966992*^9}},ExpressionUUID->"d0f14eb1-de16-4e2e-967a-\
+20a4d666a4b9"],
+
+Cell["Simulirajte nihanje vzmetnega nihala.", "Text",
+ CellChangeTimes->{{3.9538693077709103`*^9, 
+  3.95386932558951*^9}},ExpressionUUID->"f9455503-961d-46b9-9bb7-\
+5d5d9e730cfd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Odboj na bilijardni mizi", "Section",
+ CellChangeTimes->{{3.82972485202103*^9, 
+  3.8297248674665546`*^9}},ExpressionUUID->"8d4b7919-2943-4af2-a1d1-\
+d7ddffc32842"],
+
+Cell["\<\
+Simulirajte odbijanje krogle na biljardni mizi velikosti a x b. Problem lahko \
+nadgradite z odbijanjem dveh krogel.\
+\>", "Text",
+ CellChangeTimes->{{3.9538693410189037`*^9, 3.953869390400202*^9}, {
+  3.9538694709921637`*^9, 
+  3.953869504626704*^9}},ExpressionUUID->"e8612cad-bb9b-4f94-82ee-\
+499bb7a52585"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{864, 1051},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d3f29068-eeb3-41c6-98f8-28bc75205d52"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[422, 15, 176, 3, 200, "Title",ExpressionUUID->"b1187b93-4eda-4fcb-860b-0bc3d0125d0b"],
+Cell[CellGroupData[{
+Cell[623, 22, 158, 3, 84, "Section",ExpressionUUID->"4848215e-4d0a-4a62-8fa0-b40d05dbc28e"],
+Cell[784, 27, 299, 6, 73, "Text",ExpressionUUID->"515d5fad-35fb-4da7-bc05-ccd471c9eeeb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1120, 38, 206, 4, 84, "Section",ExpressionUUID->"d0f14eb1-de16-4e2e-967a-20a4d666a4b9"],
+Cell[1329, 44, 180, 3, 44, "Text",ExpressionUUID->"f9455503-961d-46b9-9bb7-5d5d9e730cfd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1546, 52, 170, 3, 84, "Section",ExpressionUUID->"8d4b7919-2943-4af2-a1d1-d7ddffc32842"],
+Cell[1719, 57, 319, 7, 73, "Text",ExpressionUUID->"e8612cad-bb9b-4f94-82ee-499bb7a52585"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
