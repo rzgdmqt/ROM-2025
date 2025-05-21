@@ -1,0 +1,293 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12856,        285]
+NotebookOptionsPosition[     10566,        245]
+NotebookOutlinePosition[     10962,        261]
+CellTagsIndexPosition[     10919,        258]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Quiz 2", "Title",
+ CellChangeTimes->{{3.9241602709588413`*^9, 3.924160305219*^9}, {
+  3.924597511699996*^9, 3.924597517378069*^9}, {3.956795943774872*^9, 
+  3.956795944546423*^9}, {3.956837131129208*^9, 
+  3.9568371337990837`*^9}},ExpressionUUID->"ab0c3545-f207-4c6b-80d4-\
+890cb2056f4b"],
+
+Cell["\<\
+Each task is worth 1 point unless otherwise stated. You can score a maximum \
+of 20 points.\
+\>", "Text",
+ CellChangeTimes->{{3.9568370768339157`*^9, 3.9568371721839523`*^9}, 
+   3.956837268682626*^9},ExpressionUUID->"3ebf3ac9-4d62-4b1b-aebe-\
+b2055b81ad88"],
+
+Cell[CellGroupData[{
+
+Cell["Task 1", "Section",
+ CellChangeTimes->{{3.924161318728797*^9, 3.924161321431718*^9}, {
+  3.956795956654835*^9, 3.9567959567590647`*^9}, {3.956837175820428*^9, 
+  3.95683717895299*^9}},ExpressionUUID->"4d0b3a1e-7621-4963-a1ec-\
+9d5787e999ca"],
+
+Cell["\<\
+a)  Define a function A(n, m) that takes natural numbers n and m and returns \
+a matrix of dimensions n \[Times] m, where each element in the matrix is the \
+product of the column index and the row index (starting from 1).\
+\>", "Text",
+ CellChangeTimes->{{3.924161473266079*^9, 3.924161603947361*^9}, {
+  3.924596922865238*^9, 3.924596938948994*^9}, {3.95683718275447*^9, 
+  3.956837190615307*^9}, {3.9568372849432364`*^9, 
+  3.956837287930646*^9}},ExpressionUUID->"481fa46d-a303-4354-93f8-\
+28c8b0f5b2c6"],
+
+Cell["b) Show that A is a symmetric matrix.", "Text",
+ CellChangeTimes->{{3.956796360323295*^9, 3.956796386169146*^9}, 
+   3.956837310653411*^9},ExpressionUUID->"3b7e05a1-b77d-4f0e-bdb0-\
+2fa2539d4455"],
+
+Cell["\<\
+c) Calculate the eigenvalues and eigenvectors of the matrix A(10, 10).\
+\>", "Text",
+ CellChangeTimes->{{3.92416160753739*^9, 3.924161619038457*^9}, {
+  3.924161668565467*^9, 3.924161692880134*^9}, {3.924161751990679*^9, 
+  3.924161752171427*^9}, {3.924161920118922*^9, 3.924161932810277*^9}, {
+  3.9241625948845663`*^9, 3.924162599873158*^9}, {3.956796389241839*^9, 
+  3.956796389422018*^9}, {3.956837316868413*^9, 
+  3.956837320645018*^9}},ExpressionUUID->"cae3d599-2d98-4a60-bd0e-\
+40f80f19f620"],
+
+Cell["\<\
+d) Calculate the characteristic polynomial of the matrix A(10, 10).\
+\>", "Text",
+ CellChangeTimes->{{3.924161780705843*^9, 3.924161837161752*^9}, {
+   3.924161868171189*^9, 3.924161903750914*^9}, {3.924161969030352*^9, 
+   3.924162010236*^9}, {3.956796279393182*^9, 3.956796279540975*^9}, {
+   3.956796391570663*^9, 3.9567963916579*^9}, 
+   3.9568373335573606`*^9},ExpressionUUID->"59bf84d7-5d53-443d-85a2-\
+d4603fc43bb3"],
+
+Cell["\<\
+e) Diagonalize the matrix A(10, 10). Determine the corresponding diagonal \
+matrix G, the transition matrix P, and the inverse P\:207b\.b9.\
+\>", "Text",
+ CellChangeTimes->{{3.9241620142828503`*^9, 3.924162016486745*^9}, {
+   3.924162123130355*^9, 3.924162211026932*^9}, {3.956796281560006*^9, 
+   3.956796281638632*^9}, {3.956796394193511*^9, 3.956796394312606*^9}, 
+   3.956837344795279*^9},ExpressionUUID->"49957c68-0e2b-48c8-aea8-\
+269275c484f8"],
+
+Cell["\<\
+f) (2 points) Solve the matrix equation:
+\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]\[NonBreakingSpace]A(\
+10,10)\[CenterDot]X + P\[CenterDot]X == G\[CenterDot]X + I\
+\>", "Text",
+ CellChangeTimes->{{3.924162217137506*^9, 3.924162236730754*^9}, 
+   3.924162542477487*^9, {3.956796285602664*^9, 3.956796285740311*^9}, {
+   3.95679639632344*^9, 3.9567963963916273`*^9}, {3.956836930380726*^9, 
+   3.956836950867461*^9}, {3.956837064481414*^9, 3.9568370732970743`*^9}, 
+   3.956837359893139*^9},ExpressionUUID->"70a2b49e-0a1c-4244-8268-\
+701f1d711a71"],
+
+Cell["g) Is the matrix A(10, 10) invertible?", "Text",
+ CellChangeTimes->{{3.956798817171096*^9, 3.956798819772801*^9}, {
+   3.956799452585414*^9, 3.956799477490397*^9}, {3.956799630352054*^9, 
+   3.95679964188934*^9}, {3.956799725420055*^9, 3.9567997265632467`*^9}, {
+   3.956836497144073*^9, 3.956836515445405*^9}, 3.956836560339855*^9, 
+   3.956837371952628*^9},ExpressionUUID->"4d093c44-752a-4165-a181-\
+b9ae5d050913"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Task 2", "Section",
+ CellChangeTimes->{{3.9559829194048615`*^9, 3.955982921240431*^9}, {
+  3.9568373991569242`*^9, 
+  3.956837404074799*^9}},ExpressionUUID->"f7a11747-6a97-477d-9380-\
+3a13b2fa7e52"],
+
+Cell["\<\
+We have a ramp with a slope of 20 degrees and a length of 5 meters. At the \
+bottom of the ramp, there is a flat surface 10 meters long.
+A ball with a radius of 20 cm is pushed from the far right edge of the flat \
+surface with an initial velocity of v\:2080 = 11 m/s.
+When the ball reaches the top of the ramp, it jumps off the edge and lands on \
+the ground (projectile motion).
+You may assume that there is no friction between the ball and the surface, \
+and no energy is lost due to rolling. Simulate the motion of the ball until \
+it lands on the ground.
+Take gravitational acceleration as g = 9.81 m/s\.b2, and for the simulation, \
+use \[CapitalDelta]t = 0.001. (See the figure).\
+\>", "Text",
+ CellChangeTimes->{{3.955982928540113*^9, 3.955983169354784*^9}, {
+   3.955983693285283*^9, 3.9559838360103197`*^9}, {3.956205088417712*^9, 
+   3.9562052341609*^9}, {3.956205293095575*^9, 3.956205372130459*^9}, {
+   3.956205422220949*^9, 3.956205477122631*^9}, {3.9567965910647*^9, 
+   3.9567968560179877`*^9}, {3.956798223234832*^9, 3.9567982440008574`*^9}, {
+   3.956798286217627*^9, 3.956798328808754*^9}, {3.956798682372184*^9, 
+   3.956798729586055*^9}, 3.956837411103633*^9, {3.956837489908188*^9, 
+   3.956837491151697*^9}, {3.9568409303907213`*^9, 3.956840930646718*^9}, {
+   3.95684097948953*^9, 
+   3.9568409796074553`*^9}},ExpressionUUID->"fa95d3b9-fed5-4312-b684-\
+0349fc8573b2"],
+
+Cell["\<\
+a) Define gravitational acceleration, slope angle, ramp length, flat surface \
+length, initial velocity, and radius of the ball.\
+\>", "Text",
+ CellChangeTimes->{{3.956205499722337*^9, 3.956205561218896*^9}, {
+   3.9567983428750772`*^9, 3.956798347050952*^9}, 
+   3.956837507809774*^9},ExpressionUUID->"5cb17daa-742e-458d-bbda-\
+8bca6adabf50"],
+
+Cell["b) Draw the ramp and the ground.", "Text",
+ CellChangeTimes->{{3.956205563812636*^9, 3.9562056294536734`*^9}, {
+   3.956205679678258*^9, 3.956205723619683*^9}, {3.956798358566158*^9, 
+   3.956798364795673*^9}, 
+   3.9568375135947227`*^9},ExpressionUUID->"83903ace-9081-4c99-8c14-\
+6c1e79ab362e"],
+
+Cell["\<\
+c) Add the ball to the drawing so that it moves when its center changes (Use \
+Dynamic).\
+\>", "Text",
+ CellChangeTimes->{{3.956205631448523*^9, 3.95620563467962*^9}, {
+   3.956205682756393*^9, 3.956205693948555*^9}, {3.956205726819165*^9, 
+   3.956205794146717*^9}, {3.956798373956152*^9, 3.95679838437578*^9}, 
+   3.956837520643855*^9},ExpressionUUID->"f816b911-c312-4383-bf99-\
+d640878422ac"],
+
+Cell["\<\
+d) Define a function `onRamp` that takes the center of the ball and returns \
+True if the ball is on the ramp.\
+\>", "Text",
+ CellChangeTimes->{{3.956205636712815*^9, 3.956205638126742*^9}, {
+   3.956205700401561*^9, 3.956205701586465*^9}, 3.956837529249682*^9, {
+   3.956841035555689*^9, 
+   3.9568410377808*^9}},ExpressionUUID->"7bddf7b4-e155-42bb-a57b-\
+c53490c1b624"],
+
+Cell["\<\
+e) Define a function `updateVelocity` that takes the current velocity vector \
+of the ball and angle \[Alpha], and returns the new velocity as the ball \
+moves down the ramp with slope \[Alpha] after time \[CapitalDelta]t.\
+\>", "Text",
+ CellChangeTimes->{{3.956205643584716*^9, 3.9562056452988434`*^9}, {
+   3.956205875660448*^9, 3.95620598122594*^9}, {3.956206158822491*^9, 
+   3.956206163529608*^9}, {3.956799061798583*^9, 3.956799061909748*^9}, {
+   3.956836799559998*^9, 3.956836807608657*^9}, 3.956837537457443*^9, {
+   3.956841040115511*^9, 
+   3.956841042770318*^9}},ExpressionUUID->"979d9d9d-5335-4579-90e6-\
+8ef6a0bb32a1"],
+
+Cell["\<\
+f) Define a function `velocityToRamp` that takes the current velocity vector \
+of the ball and angle \[Alpha], and returns the new velocity as the ball \
+transitions from the flat surface onto the ramp with slope \[Alpha].\
+\>", "Text",
+ CellChangeTimes->{{3.956205648740704*^9, 3.956205651957946*^9}, 
+   3.956205985052017*^9, {3.956206179051429*^9, 3.956206244861419*^9}, {
+   3.95620629415499*^9, 3.956206294343754*^9}, {3.956799063643646*^9, 
+   3.956799063816955*^9}, 3.956837546530004*^9, {3.956841046210393*^9, 
+   3.956841047838244*^9}},ExpressionUUID->"bd1c974a-d4ab-4e77-ae46-\
+e1eb09dc14c8"],
+
+Cell["\<\
+g) Define a function `updateVelocityProjectile` that takes the current \
+velocity of the ball and returns the new velocity after time \[CapitalDelta]t \
+during projectile motion.\
+\>", "Text",
+ CellChangeTimes->{{3.956798467667831*^9, 3.956798524786375*^9}, {
+   3.956798594599505*^9, 3.956798626176605*^9}, {3.956798748038917*^9, 
+   3.956798756327551*^9}, {3.95679906525139*^9, 3.956799065423354*^9}, {
+   3.956836772609997*^9, 3.9568367787433367`*^9}, 3.956837554507094*^9, {
+   3.956841050055743*^9, 
+   3.956841052497984*^9}},ExpressionUUID->"6fd7c0d9-0fdd-437f-bb32-\
+8dc1e675b140"],
+
+Cell["\<\
+h) Define a function `updatePosition` that takes the current position of the \
+ball and its velocity, and returns the new position after time \
+\[CapitalDelta]t.\
+\>", "Text",
+ CellChangeTimes->{{3.956836677591261*^9, 3.95683676760638*^9}, 
+   3.956837561714076*^9, {3.956841054586318*^9, 
+   3.956841056559757*^9}},ExpressionUUID->"8e138801-cd21-4a79-9412-\
+9f62b36ba099"],
+
+Cell["\<\
+i) Using the previous functions, simulate the motion of the ball. (4 points \
+\[Dash] motion on flat surface (1 point), motion on the ramp (1 point), \
+projectile motion (1 point), simulation stops when the ball lands on the \
+ground (1 point))\
+\>", "Text",
+ CellChangeTimes->{{3.956205655794647*^9, 3.956205659392256*^9}, {
+   3.956206299556443*^9, 3.956206317813852*^9}, {3.9567990671972218`*^9, 
+   3.956799177284145*^9}, {3.956836855085009*^9, 3.95683685541541*^9}, 
+   3.956836968717061*^9, 3.956837569269821*^9, {3.956841068431437*^9, 
+   3.956841068951256*^9}},ExpressionUUID->"a97f9e14-653a-40eb-936e-\
+327fe3907292"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{864, 1051},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"777a3485-9ddd-4355-b92b-49b3cceaceb0"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 294, 5, 98, "Title",ExpressionUUID->"ab0c3545-f207-4c6b-80d4-890cb2056f4b"],
+Cell[877, 29, 268, 6, 35, "Text",ExpressionUUID->"3ebf3ac9-4d62-4b1b-aebe-b2055b81ad88"],
+Cell[CellGroupData[{
+Cell[1170, 39, 247, 4, 67, "Section",ExpressionUUID->"4d0b3a1e-7621-4963-a1ec-9d5787e999ca"],
+Cell[1420, 45, 517, 9, 58, "Text",ExpressionUUID->"481fa46d-a303-4354-93f8-28c8b0f5b2c6"],
+Cell[1940, 56, 202, 3, 35, "Text",ExpressionUUID->"3b7e05a1-b77d-4f0e-bdb0-2fa2539d4455"],
+Cell[2145, 61, 509, 9, 35, "Text",ExpressionUUID->"cae3d599-2d98-4a60-bd0e-40f80f19f620"],
+Cell[2657, 72, 433, 8, 35, "Text",ExpressionUUID->"59bf84d7-5d53-443d-85a2-d4603fc43bb3"],
+Cell[3093, 82, 460, 8, 58, "Text",ExpressionUUID->"49957c68-0e2b-48c8-aea8-269275c484f8"],
+Cell[3556, 92, 573, 10, 58, "Text",ExpressionUUID->"70a2b49e-0a1c-4244-8268-701f1d711a71"],
+Cell[4132, 104, 422, 6, 35, "Text",ExpressionUUID->"4d093c44-752a-4165-a181-b9ae5d050913"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4591, 115, 204, 4, 67, "Section",ExpressionUUID->"f7a11747-6a97-477d-9380-3a13b2fa7e52"],
+Cell[4798, 121, 1402, 23, 173, "Text",ExpressionUUID->"fa95d3b9-fed5-4312-b684-0349fc8573b2"],
+Cell[6203, 146, 353, 7, 35, "Text",ExpressionUUID->"5cb17daa-742e-458d-bbda-8bca6adabf50"],
+Cell[6559, 155, 301, 5, 35, "Text",ExpressionUUID->"83903ace-9081-4c99-8c14-6c1e79ab362e"],
+Cell[6863, 162, 405, 8, 35, "Text",ExpressionUUID->"f816b911-c312-4383-bf99-d640878422ac"],
+Cell[7271, 172, 381, 8, 35, "Text",ExpressionUUID->"7bddf7b4-e155-42bb-a57b-c53490c1b624"],
+Cell[7655, 182, 642, 11, 58, "Text",ExpressionUUID->"979d9d9d-5335-4579-90e6-8ef6a0bb32a1"],
+Cell[8300, 195, 612, 10, 58, "Text",ExpressionUUID->"bd1c974a-d4ab-4e77-ae46-e1eb09dc14c8"],
+Cell[8915, 207, 598, 11, 58, "Text",ExpressionUUID->"6fd7c0d9-0fdd-437f-bb32-8dc1e675b140"],
+Cell[9516, 220, 383, 8, 58, "Text",ExpressionUUID->"8e138801-cd21-4a79-9412-9f62b36ba099"],
+Cell[9902, 230, 636, 11, 58, "Text",ExpressionUUID->"a97f9e14-653a-40eb-936e-327fe3907292"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
